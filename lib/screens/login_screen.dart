@@ -45,7 +45,7 @@ class _LoginScreenState extends State<LoginScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Image(
+                  const Image(
                     image: AssetImage(Config.app_icon),
                     height: 80,
                     width: 80,
@@ -88,14 +88,14 @@ class _LoginScreenState extends State<LoginScreen> {
                       Icon(
                         FontAwesomeIcons.google,
                         size: 20,
-                        color: Colors.white,
+                        color: Colors.red,
                       ),
                       SizedBox(
                         width: 15,
                       ),
                       Text("Sign in with Google",
                           style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.red,
                               fontSize: 15,
                               fontWeight: FontWeight.w500)),
                     ],
@@ -120,14 +120,14 @@ class _LoginScreenState extends State<LoginScreen> {
                       Icon(
                         FontAwesomeIcons.facebook,
                         size: 20,
-                        color: Colors.white,
+                        color: Colors.blue,
                       ),
                       SizedBox(
                         width: 15,
                       ),
                       Text("Sign in with Facebook",
                           style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.blue,
                               fontSize: 15,
                               fontWeight: FontWeight.w500)),
                     ],
@@ -153,14 +153,14 @@ class _LoginScreenState extends State<LoginScreen> {
                       Icon(
                         FontAwesomeIcons.github,
                         size: 20,
-                        color: Colors.white,
+                        color: Colors.black,
                       ),
                       SizedBox(
                         width: 15,
                       ),
                       Text("Continue with GitHub",
                           style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.black,
                               fontSize: 15,
                               fontWeight: FontWeight.w500)),
                     ],
@@ -187,14 +187,14 @@ class _LoginScreenState extends State<LoginScreen> {
                       Icon(
                         FontAwesomeIcons.phone,
                         size: 20,
-                        color: Colors.white,
+                        color: Colors.orange,
                       ),
                       SizedBox(
                         width: 15,
                       ),
                       Text("Sign in with Phone",
                           style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.orange,
                               fontSize: 15,
                               fontWeight: FontWeight.w500)),
                     ],
